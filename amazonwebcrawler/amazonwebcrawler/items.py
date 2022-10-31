@@ -9,4 +9,7 @@ import scrapy
 class AmazonwebcrawlerItem(scrapy.Item):
     # define the fields for your item here like:
     product_name = scrapy.Field()
+    product_author = scrapy.Field()
+    product_price = scrapy.Field()
+    product_reviews = scrapy.Field()
 
